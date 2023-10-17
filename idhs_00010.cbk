@@ -1,0 +1,3952 @@
+Description: Revision of (The research tends to examine the different aspects of poverty in India. So, I
+want to compute multidimensional poverty index based on this. Mostly I'll need
+data on dirt floor, electricity, children's malnourishment, education level,
+fuel, etc. I want to start with computing MPI by giving equal weightage to
+economical poverty, health and education. Then we will subdivide it. which
+measure of poverty ratio will be applied that I have not decided yet. I also
+need toc check whether for education and health I can aggregate individual data
+into household data.)
+Samples selected:
+      India 2015 Births
+            Note: 
+            Density of the full data file:  1.0%
+            Density of your extract: 1.0%
+
+File Type:                    rectangular
+Case Selection:               No
+  Variable               Columns        Len   IA15    
+  SAMPLE             P   1-5            5     X       
+  SAMPLESTR          P   6-10           5     X       
+  COUNTRY            P  11-13           3     X       
+  YEAR               P  14-17           4     X       
+  IDHSPID            P  18-40          23     X       
+  IDHSHID            P  41-60          20     X       
+  DHSID              P  61-74          14     X       
+  IDHSPSU            P  75-85          11     X       
+  IDHSSTRATA         P  86-95          10     X       
+  CASEID             P  96-113         18     X       
+  HHID               P 114-128         15     X       
+  PSU                P 129-134          6     X       
+  STRATA             P 135-139          5     X       
+  DOMAIN             P 140-144          5     X       
+  HHNUM              P 145-148          4     X       
+  CLUSTERNO          P 149-156          8     X       
+  ULTAREAUNIT        P 157-160          4     X       
+  LINENO             P 161-163          3     X       
+  LINENOHHRESP       P 164-165          2     X       
+  LINENOHUS          P 166-167          2     X       
+  BIDX               P 168-169          2     X       
+  PERWEIGHT          P 170-178          9     X       
+  AWFACTT            P 179-183          5     X       
+  AWFACTU            P 184-188          5     X       
+  AWFACTR            P 189-193          5     X       
+  AWFACTE            P 194-198          5     X       
+  AWFACTW            P 199-203          5     X       
+  DVWEIGHT           P 204-211          8     X       
+  URBAN              P 212              1     X       
+  GEO_IA1992_2015    P 213-214          2     X       
+  GEO_IA2015         P 215-216          2     X       
+  GEOALT_IA2015      P 217-219          3     X       
+  AGE                P 220-221          2     X       
+  AGE5YEAR           P 222-223          2     X       
+  BIRTHMO            P 224-225          2     X       
+  BIRTHYEAR          P 226-229          4     X       
+  DOBCMC             P 230-233          4     X       
+  DOBINFORESP        P 234              1     X       
+  RESIDENT           P 235              1     X       
+  RELATE             P 236-237          2     X       
+  PREGNANT           P 238              1     X       
+  DURCURPREG         P 239-240          2     X       
+  TRIPAWAY1MO        P 241              1     X       
+  TRIPAWAY6MO        P 242              1     X       
+  RELIGION           P 243-246          4     X       
+  ETHNICITYIA        P 247-248          2     X       
+  MARSTAT            P 249-250          2     X       
+  CHEB               P 251-252          2     X       
+  TOTBIRTHIST        P 253-254          2     X       
+  SONSATHOME         P 255-256          2     X       
+  DAUSATHOME         P 257-258          2     X       
+  SONSAWAYHOME       P 259-260          2     X       
+  DAUSAWAYHOME       P 261-262          2     X       
+  SONSDIED           P 263-264          2     X       
+  DAUSDIED           P 265-266          2     X       
+  BIRTHSIN5YRS       P 267              1     X       
+  BIRTHSIN1YR        P 268              1     X       
+  BIRTHSIN1MO        P 269              1     X       
+  DOB1STKIDCMC       P 270-273          4     X       
+  TIMEMENSTRUATE     P 274-276          3     X       
+  MENSTRUATE6WK      P 277              1     X       
+  OVCYCLE            P 278              1     X       
+  CHEBALIVE          P 279-280          2     X       
+  CHSURVPLUSPG       P 281-282          2     X       
+  CHEBALIVETRUNC     P 283              1     X       
+  LASTBIRTHTOINTMO   P 284-286          3     X       
+  CONCEPTDATEFLAG    P 287              1     X       
+  MENSTIMFLAG        P 288-289          2     X       
+  PREGTERMIN         P 290              1     X       
+  PREGTERMINMO       P 291-292          2     X       
+  PREGTERMINYR       P 293-296          4     X       
+  PREGTERMTIM        P 297-298          2     X       
+  PREGTERMPREV       P 299              1     X       
+  PRECALBIDX         P 300              1     X       
+  BIRTHSOTHER        P 301              1     X       
+  BIRTHSTOT3YR       P 302              1     X       
+  PRECALTERM         P 303              1     X       
+  PRECALTERMMO       P 304-305          2     X       
+  PRECALTERMYR       P 306-309          4     X       
+  PRECALTERMCMC      P 310-313          4     X       
+  PRECALTERMCOMP     P 314              1     X       
+  CALCOLNO           P 315              1     X       
+  CALINTMOROW        P 316-317          2     X       
+  CALLENGTH          P 318-319          2     X       
+  CALSTARTCMC        P 320-323          4     X       
+  AGEMENARCHE        P 324-325          2     X       
+  MENSUSECLOTH       P 326              1     X       
+  MENSUSELOCNAP      P 327              1     X       
+  MENSUSESANNAP      P 328              1     X       
+  MENSUSETAMPON      P 329              1     X       
+  MENSUSEOTHER       P 330              1     X       
+  MENSUSENONE        P 331              1     X       
+  AGEAT1STBIRTH      P 332-333          2     X       
+  PREGTERMCMC        P 334-337          4     X       
+  PREGTERMFLAG       P 338              1     X       
+  PREGTERMTYP        P 339-340          2     X       
+  PREGTERMULTRA      P 341              1     X       
+  ABORTWHO           P 342-343          2     X       
+  ABORTPLACE         P 344-347          4     X       
+  ABORTCOMP          P 348              1     X       
+  ABORTCOMPTR        P 349              1     X       
+  ABORTCOMPTRPLACE   P 350-353          4     X       
+  ABORTCOMPTRNOCOST   P 354              1     X       
+  ABORTCOMPTRNOTRAN   P 355              1     X       
+  ABORTCOMPTRNOSTIGP   P 356              1     X       
+  ABORTCOMPTRNOSTIGC   P 357              1     X       
+  ABORTCOMPTRNOMINOR   P 358              1     X       
+  ABORTCOMPTRNORESOLVE   P 359              1     X       
+  ABORTCOMPTRNOFAM   P 360              1     X       
+  ABORTCOMPTRNOPERMIT   P 361              1     X       
+  ABORTCOMPTRNOTH    P 362              1     X       
+  HYSTOPEV           P 363              1     X       
+  HYSTOPYRAGO        P 364-365          2     X       
+  HYSTOPPLACE        P 366-368          3     X       
+  HYSTOPMENST        P 369              1     X       
+  HYSTOPCYST         P 370              1     X       
+  HYSTOPRUPTURE      P 371              1     X       
+  HYSTOPCANCER       P 372              1     X       
+  HYSTOPROLAPSE      P 373              1     X       
+  HYSTOPPHEM         P 374              1     X       
+  HYSTOPOTHER        P 375              1     X       
+  CURRWORK           P 376-377          2     X       
+  WEALTHQ            P 378              1     X       
+  WEALTHS            P 379-390         12     X       
+  EDUCLVL            P 391              1     X       
+  EDYRTOTAL          P 392-393          2     X       
+  KIDSEX             P 394              1     X       
+  KIDALIVE           P 395              1     X       
+  KIDBIRTHMO         P 396-397          2     X       
+  KIDBIRTHYR         P 398-401          4     X       
+  KIDCURAGE          P 402-403          2     X       
+  KIDDOBCMC          P 404-407          4     X       
+  KIDBORD            P 408-409          2     X       
+  KIDTWIN            P 410-411          2     X       
+  KIDAGEDEATH        P 412-414          3     X       
+  KIDAGEDIEDIMP      P 415-417          3     X       
+  KIDAGEDEATHFLAG    P 418              1     X       
+  KIDLIVESWITH       P 419-420          2     X       
+  LINENOKID          P 421-422          2     X       
+  BIRTHINTPOSTMO     P 423-425          3     X       
+  OTHBIRTHININT      P 426              1     X       
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+
+RECTYPE   Record type
+P         Person
+
+SAMPLE              IPUMS-DHS sample identifier
+00101               Model 2015
+00401               Afghanistan 2015
+02401               Angola 2015
+05001               Bangladesh 1994
+05002               Bangladesh 1996-97
+05003               Bangladesh 1999-00
+05004               Bangladesh 2004
+05005               Bangladesh 2007
+05006               Bangladesh 2011
+05007               Bangladesh 2014
+05008               Bangladesh 2018
+10401               Myanmar 2015
+10801               Burundi 1987
+10802               Burundi 2010
+10803               Burundi 2016
+11601               Cambodia 2000
+11602               Cambodia 2005
+11603               Cambodia 2010
+11604               Cambodia 2014
+12001               Cameroon 1991
+12002               Cameroon 1998
+12003               Cameroon 2004
+12004               Cameroon 2011
+12005               Cameroon 2018
+14001               Central African Republic 1995
+14401               Sri Lanka 1987
+14801               Chad 1996-97
+14802               Chad 2004
+14803               Chad 2014
+17801               Congo Brazzaville 2005
+17802               Congo Brazzaville 2011-12
+18001               Congo Democratic Republic 2007
+18002               Congo Democratic Republic 2013-14
+20401               Benin 1996
+20402               Benin 2001
+20403               Benin 2006
+20404               Benin 2011
+20405               Benin 2017-18
+23101               Ethiopia 2000
+23102               Ethiopia 2005
+23103               Ethiopia 2011
+23104               Ethiopia 2016
+23105               Ethiopia 2019
+28801               Ghana 1988
+28802               Ghana 1993
+28803               Ghana 1998
+28804               Ghana 2003
+28805               Ghana 2008
+28806               Ghana 2014
+28807               Ghana 2016
+32001               Guatemala 1987
+32002               Guatemala 1995
+32003               Guatemala 2015
+32401               Guinea 1999
+32402               Guinea 2005
+32403               Guinea 2012
+32404               Guinea 2018
+35601               India 1992-93
+35602               India 1998-99
+35603               India 2005-06
+35604               India 2015-16
+38401               Cote d'Ivoire 1994
+38402               Cote d'Ivoire 1998
+38403               Cote d'Ivoire 2011
+40001               Jordan 1990
+40002               Jordan 1997
+40003               Jordan 2002
+40004               Jordan 2007
+40005               Jordan 2009
+40006               Jordan 2012
+40007               Jordan 2017-18
+40401               Kenya 1989
+40402               Kenya 1993
+40403               Kenya 1998
+40404               Kenya 2003
+40405               Kenya 2008-9
+40406               Kenya 2014
+42601               Lesotho 2004
+42602               Lesotho 2009
+42603               Lesotho 2014
+43001               Liberia 1986
+43002               Liberia 2007
+43003               Liberia 2013
+43004               Liberia 2019
+45001               Madagascar 1992
+45002               Madagascar 1997
+45003               Madagascar 2003
+45004               Madagascar 2008
+45401               Malawi 1992
+45402               Malawi 2000
+45403               Malawi 2004
+45404               Malawi 2010
+45405               Malawi 2016
+46601               Mali 1987
+46602               Mali 1995-6
+46603               Mali 2001
+46604               Mali 2006
+46605               Mali 2012
+46606               Mali 2018
+50401               Morocco 1987
+50402               Morocco 1992
+50403               Morocco 2003
+50801               Mozambique 1997
+50802               Mozambique 2003
+50803               Mozambique 2011
+51601               Namibia 1992
+51602               Namibia 2000
+51603               Namibia 2006
+51604               Namibia 2013
+52401               Nepal 1996
+52402               Nepal 2001
+52403               Nepal 2006
+52404               Nepal 2011
+52405               Nepal 2016
+56201               Niger 1992
+56202               Niger 1998
+56203               Niger 2006
+56204               Niger 2012
+56601               Nigeria 1990
+56602               Nigeria 1999
+56603               Nigeria 2003
+56604               Nigeria 2008
+56605               Nigeria 2013
+56606               Nigeria 2018
+58601               Pakistan 1990-91
+58602               Pakistan 2006-07
+58603               Pakistan 2012-13
+58604               Pakistan 2017-18
+60401               Peru 1991-92
+60402               Peru 1996
+60403               Peru 2000
+60404               Peru 2004-08
+60405               Peru 2010
+60406               Peru 2011
+60407               Peru 2012
+64601               Rwanda 1992
+64602               Rwanda 2000
+64603               Rwanda 2005
+64604               Rwanda 2008
+64605               Rwanda 2010
+64606               Rwanda 2014
+64607               Rwanda 2019
+68601               Senegal 1986
+68602               Senegal 1992-93
+68603               Senegal 1997
+68604               Senegal 2005
+68605               Senegal 2010-11
+68606               Senegal 2012-13
+68607               Senegal 2014
+68608               Senegal 2015
+68609               Senegal 2016
+68610               Senegal 2017
+71001               South Africa 1998
+71002               South Africa 2016
+71601               Zimbabwe 1988
+71602               Zimbabwe 1994
+71603               Zimbabwe 1999
+71604               Zimbabwe 2005-6
+71605               Zimbabwe 2010-11
+71606               Zimbabwe 2015
+72901               Sudan 1989-90
+74801               Eswatini 2006
+76801               Togo 1988
+76802               Togo 1998
+76803               Togo 2013
+78801               Tunisia 1988
+79201               Turkey 1993
+79202               Turkey 1998
+79203               Turkey 2003
+80001               Uganda 1988
+80002               Uganda 1995
+80003               Uganda 2001
+80004               Uganda 2006
+80005               Uganda 2011
+80006               Uganda 2016
+81801               Egypt 1988
+81802               Egypt 1992
+81803               Egypt 1995
+81804               Egypt 2000
+81805               Egypt 2003
+81806               Egypt 2005
+81807               Egypt 2008
+81808               Egypt 2014
+83401               Tanzania 1991
+83402               Tanzania 1996
+83403               Tanzania 1999
+83404               Tanzania 2004
+83405               Tanzania 2010
+83406               Tanzania 2015
+85401               Burkina Faso 1993
+85402               Burkina Faso 1998
+85403               Burkina Faso 2003
+85404               Burkina Faso 2010
+88701               Yemen 1991-92
+88702               Yemen 2013
+89401               Zambia 1992
+89402               Zambia 1996
+89403               Zambia 2001
+89404               Zambia 2007
+89405               Zambia 2013
+89406               Zambia 2018
+
+SAMPLESTR           IPUMS-DHS sample identifier (string)
+00101               Model 2015
+00401               Afghanistan 2015
+02401               Angola 2015
+05001               Bangladesh 1994
+05002               Bangladesh 1996-97
+05003               Bangladesh 1999-00
+05004               Bangladesh 2004
+05005               Bangladesh 2007
+05006               Bangladesh 2011
+05007               Bangladesh 2014
+05008               Bangladesh 2018
+10401               Myanmar 2015
+10801               Burundi 1987
+10802               Burundi 2010
+10803               Burundi 2016
+11601               Cambodia 2000
+11602               Cambodia 2005
+11603               Cambodia 2010
+11604               Cambodia 2014
+12001               Cameroon 1991
+12002               Cameroon 1998
+12003               Cameroon 2004
+12004               Cameroon 2011
+12005               Cameroon 2018
+14001               Central African Republic 1995
+14801               Chad 1996-97
+14802               Chad 2004
+14803               Chad 2014
+17801               Congo Brazzaville 2005
+17802               Congo Brazzaville 2011-12
+18001               Congo Democratic Republic 2007
+18002               Congo Democratic Republic 2013-14
+20401               Benin 1996
+20402               Benin 2001
+20403               Benin 2006
+20404               Benin 2011
+20405               Benin 2017
+23101               Ethiopia 2000
+23102               Ethiopia 2005
+23103               Ethiopia 2011
+23104               Ethiopia 2016
+23105               Ethiopia 2019
+28801               Ghana 1988
+28802               Ghana 1993
+28803               Ghana 1998
+28804               Ghana 2003
+28805               Ghana 2008
+28806               Ghana 2014
+28807               Ghana 2016
+32001               Guatemala 1987
+32002               Guatemala 1995
+32003               Guatemala 2015
+32401               Guinea 1999
+32402               Guinea 2005
+32403               Guinea 2012
+32404               Guinea 2018
+35601               India 1992-93
+35602               India 1998-99
+35603               India 2005-06
+35604               India 2015-16
+38401               Cote d'Ivoire 1994
+38402               Cote d'Ivoire 1998
+38403               Cote d'Ivoire 2011
+40001               Jordan 1990
+40002               Jordan 1997
+40003               Jordan 2002
+40004               Jordan 2007
+40005               Jordan 2009
+40006               Jordan 2012
+40007               Jordan 2017
+40401               Kenya 1989
+40402               Kenya 1993
+40403               Kenya 1998
+40404               Kenya 2003
+40405               Kenya 2008-9
+40406               Kenya 2014
+42601               Lesotho 2004
+42602               Lesotho 2009
+42603               Lesotho 2014
+43001               Liberia 1986
+43002               Liberia 2007
+43003               Liberia 2013
+43004               Liberia 2019
+45001               Madagascar 1992
+45002               Madagascar 1997
+45003               Madagascar 2003
+45004               Madagascar 2008
+45401               Malawi 1992
+45402               Malawi 2000
+45403               Malawi 2004
+45404               Malawi 2010
+45405               Malawi 2016
+46601               Mali 1987
+46602               Mali 1995-6
+46603               Mali 2001
+46604               Mali 2006
+46605               Mali 2012
+46606               Mali 2018
+50401               Morocco 1987
+50402               Morocco 1992
+50403               Morocco 2003
+50801               Mozambique 1997
+50802               Mozambique 2003
+50803               Mozambique 2011
+51601               Namibia 1992
+51602               Namibia 2000
+51603               Namibia 2006
+51604               Namibia 2013
+52401               Nepal 1996
+52402               Nepal 2001
+52403               Nepal 2006
+52404               Nepal 2011
+52405               Nepal 2016
+56201               Niger 1992
+56202               Niger 1998
+56203               Niger 2006
+56204               Niger 2012
+56601               Nigeria 1990
+56602               Nigeria 1999
+56603               Nigeria 2003
+56604               Nigeria 2008
+56605               Nigeria 2013
+56606               Nigeria 2018
+58601               Pakistan 1990-91
+58602               Pakistan 2006-07
+58603               Pakistan 2012-13
+58604               Pakistan 2017-18
+60401               Peru 1991-92
+60402               Peru 1996
+60403               Peru 2000
+60404               Peru 2004-08
+60405               Peru 2010
+60406               Peru 2011
+60407               Peru 2012
+64601               Rwanda 1992
+64602               Rwanda 2000
+64603               Rwanda 2005
+64604               Rwanda 2008
+64605               Rwanda 2010
+64606               Rwanda 2014
+64607               Rwanda 2019
+68601               Senegal 1986
+68602               Senegal 1992-93
+68603               Senegal 1997
+68604               Senegal 2005
+68605               Senegal 2010-11
+68606               Senegal 2012-13
+68607               Senegal 2014
+68608               Senegal 2015
+68609               Senegal 2016
+68610               Senegal 2017
+71001               South Africa 1998
+71002               South Africa 2016
+14401               Sri Lanka 1987
+71601               Zimbabwe 1988
+71602               Zimbabwe 1994
+71603               Zimbabwe 1999
+71604               Zimbabwe 2005-6
+71605               Zimbabwe 2010-11
+71606               Zimbabwe 2015
+72901               Sudan 1989-90
+74801               Eswatini 2006
+76801               Togo 1988
+76802               Togo 1998
+76803               Togo 2013
+78801               Tunisia 1988
+79201               Turkey 1993
+79202               Turkey 1998
+79203               Turkey 2003
+80001               Uganda 1988
+80002               Uganda 1995
+80003               Uganda 2001
+80004               Uganda 2006
+80005               Uganda 2011
+80006               Uganda 2016
+81801               Egypt 1988
+81802               Egypt 1992
+81803               Egypt 1995
+81804               Egypt 2000
+81805               Egypt 2003
+81806               Egypt 2005
+81807               Egypt 2008
+81808               Egypt 2014
+83401               Tanzania 1991
+83402               Tanzania 1996
+83403               Tanzania 1999
+83404               Tanzania 2004
+83405               Tanzania 2010
+83406               Tanzania 2015
+85401               Burkina Faso 1993
+85402               Burkina Faso 1998
+85403               Burkina Faso 2003
+85404               Burkina Faso 2010
+88701               Yemen 1991-92
+88702               Yemen 2013
+89401               Zambia 1992
+89402               Zambia 1996
+89403               Zambia 2001
+89404               Zambia 2007
+89405               Zambia 2013
+89406               Zambia 2018
+
+COUNTRY             Country
+004                 Afghanistan
+024                 Angola
+050                 Bangladesh
+104                 Myanmar
+108                 Burundi
+116                 Cambodia
+120                 Cameroon
+140                 Central African Republic
+144                 Sri Lanka
+148                 Chad
+178                 Congo Brazzaville
+180                 Congo Democratic Republic
+204                 Benin
+231                 Ethiopia
+288                 Ghana
+320                 Guatemala
+324                 Guinea
+356                 India
+384                 Cote d'Ivoire
+400                 Jordan
+404                 Kenya
+426                 Lesotho
+430                 Liberia
+450                 Madagascar
+454                 Malawi
+466                 Mali
+504                 Morocco
+508                 Mozambique
+516                 Namibia
+524                 Nepal
+562                 Niger
+586                 Pakistan
+566                 Nigeria
+604                 Peru
+646                 Rwanda
+686                 Senegal
+710                 South Africa
+716                 Zimbabwe
+729                 Sudan
+748                 Eswatini
+768                 Togo
+788                 Tunisia
+792                 Turkey
+800                 Uganda
+818                 Egypt
+834                 Tanzania
+854                 Burkina Faso
+887                 Yemen
+894                 Zambia
+001                 Model
+
+YEAR                Year of sample
+1986                1986
+1987                1987
+1988                1988
+1989                1989
+1990                1990
+1991                1991
+1992                1992
+1993                1993
+1994                1994
+1995                1995
+1996                1996
+1997                1997
+1998                1998
+1999                1999
+2000                2000
+2001                2001
+2002                2002
+2003                2003
+2004                2004
+2005                2005
+2006                2006
+2007                2007
+2008                2008
+2009                2009
+2010                2010
+2011                2011
+2012                2012
+2013                2013
+2014                2014
+2015                2015
+2016                2016
+2017                2017
+2018                2018
+2019                2019
+2020                2020
+
+LINENO              Household line number of woman respondent
+001                 1
+002                 2
+003                 3
+004                 4
+005                 5
+006                 6
+007                 7
+008                 8
+009                 9
+010                 10
+011                 11
+012                 12
+013                 13
+014                 14
+015                 15
+016                 16
+017                 17
+018                 18
+019                 19
+020                 20
+021                 21
+022                 22
+023                 23
+024                 24
+025                 25
+026                 26
+027                 27
+028                 28
+029                 29
+030                 30
+031                 31
+032                 32
+033                 33
+034                 34
+035                 35
+036                 36
+037                 37
+038                 38
+039                 39
+040                 40
+041                 41
+042                 42
+043                 43
+044                 44
+045                 45
+046                 46
+047                 47
+048                 48
+049                 49
+050                 50
+051                 51
+052                 52
+053                 53
+054                 54
+055                 55
+056                 56
+057                 57
+058                 58
+059                 59
+060                 60
+061                 61
+062                 62
+063                 63
+064                 64
+065                 65
+066                 66
+067                 67
+068                 68
+069                 69
+070                 70
+071                 71
+072                 72
+073                 73
+074                 74
+075                 75
+076                 76
+077                 77
+078                 78
+079                 79
+080                 80
+081                 81
+082                 82
+083                 83
+084                 84
+085                 85
+086                 86
+087                 87
+088                 88
+089                 89
+090                 90
+091                 91
+092                 92
+093                 93
+094                 94
+095                 95
+096                 96
+097                 97
+098                 98
+099                 99
+100                 100
+101                 101
+102                 102
+103                 103
+104                 104
+105                 105
+106                 106
+
+LINENOHHRESP        Respondent's line number (answering Household questionnaire)
+00                  Not in household
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+36                  36
+37                  37
+38                  38
+39                  39
+40                  40
+41                  41
+42                  42
+43                  43
+44                  44
+45                  45
+46                  46
+47                  47
+48                  48
+49                  49
+50                  50
+51                  51
+52                  52
+53                  53
+98                  Missing
+
+LINENOHUS           Household line number of respondent's husband
+00                  Husband not in the household
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+36                  36
+37                  37
+38                  38
+39                  39
+40                  40
+41                  41
+42                  42
+43                  43
+44                  44
+45                  45
+46                  46
+47                  47
+48                  48
+49                  49
+50                  50
+51                  51
+52                  52
+53                  53
+54                  54
+55                  55
+98                  Missing
+99                  NIU (not in universe)
+
+BIDX                Birth history index number 
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+
+URBAN               Urban-rural status
+1                   Urban
+2                   Rural
+
+GEO_IA1992_2015     India regions, 1992 and 2015 [integrated; GIS]
+02                  Andhra Pradesh, Telangana, Andaman and Nicobar Islands
+03                  Arunachal Pradesh
+04                  Assam
+05                  Bihar and Jharkhand
+10                  Goa
+11                  Gujarat, Dadra and Nagar Haveli, Daman and Diu
+12                  Haryana
+13                  Himachal Pradesh
+14                  Jammu and Kashmir
+16                  Karnataka
+17                  Kerala and Lakshadweep
+19                  Madhya Pradesh and Chhattisgarh
+20                  Maharashtra
+21                  Manipur
+22                  Meghalaya
+23                  Mizoram
+24                  Nagaland
+25                  Delhi
+26                  Odisha
+27                  Puducherry
+28                  Punjab and Chandigarh
+29                  Rajasthan
+30                  Sikkim
+31                  Tamil Nadu
+32                  Tripura
+33                  Uttar Pradesh and Uttarakhand
+35                  West Bengal
+98                  Missing
+
+GEO_IA2015          India regions, 2015 [GIS]
+01                  Andaman and Nicobar Islands
+02                  Andhra Pradesh
+03                  Arunachal Pradesh
+04                  Assam
+05                  Bihar
+06                  Chandigarh
+07                  Chhattisgarh
+08                  Dadra and Nagar Haveli
+09                  Daman and Diu
+10                  Goa
+11                  Gujarat
+12                  Haryana
+13                  Himachal Pradesh
+14                  Jammu and Kashmir
+15                  Jharkhand
+16                  Karnataka
+17                  Kerala
+18                  Lakshadweep
+19                  Madhya Pradesh
+20                  Maharashtra
+21                  Manipur
+22                  Meghalaya
+23                  Mizoram
+24                  Nagaland
+25                  Delhi
+26                  Odisha
+27                  Puducherry
+28                  Punjab
+29                  Rajasthan
+30                  Sikkim
+31                  Tamil Nadu
+32                  Tripura
+33                  Uttar Pradesh
+34                  Uttarakhand
+35                  West Bengal
+36                  Telangana
+
+GEOALT_IA2015       India districts, 2015 [GIS]
+                    Jammu and Kashmir (14)
+001                 Kupwara
+002                 Badgam
+003                 Leh
+004                 Kargil
+005                 Punch
+006                 Rajouri
+007                 Kathua
+008                 Baramula
+009                 Bandipore
+010                 Srinagar
+011                 Ganderbal
+012                 Pulwama
+013                 Shupiyan
+014                 Anantnag
+015                 Kulgam
+016                 Doda
+017                 Ramban
+018                 Kishtwar
+019                 Udhampur
+020                 Reasi
+021                 Jammu
+022                 Samba
+                    Himachal Pradesh (13)
+023                 Chamba
+024                 Kangra
+025                 Lahul and Spiti
+026                 Kullu
+027                 Mandi
+028                 Hamirpur (in Himachal Pradesh)
+029                 Una
+030                 Bilaspur (in Himachal Pradesh)
+031                 Solan
+032                 Sirmaur
+033                 Shimla
+034                 Kinnaur
+                    Punjab (28)
+035                 Gurdaspur
+036                 Kapurthala
+037                 Jalandhar
+038                 Hoshiarpur
+039                 Sangrur
+040                 Fatehgarh Sahib
+041                 Ludhiana
+042                 Moga
+043                 Firozpur
+044                 Muktsar
+045                 Faridkot
+046                 Bathinda
+047                 Mansa
+048                 Patiala
+049                 Amritsar
+050                 TarnTaran
+051                 Rupnagar
+052                 Sahibzada Ajit Singh Nagar
+053                 Shahid Bhagat Singh Nagar
+054                 Barnala
+                    Chandigarh (06)
+055                 Chandigarh
+                    Uttarakhand (34)
+056                 Uttarkashi
+057                 Chamoli
+058                 Rudraprayag
+059                 Tehri Garhwal
+060                 Dehradun
+061                 Garhwal
+062                 Pithoragarh
+063                 Bageshwar
+064                 Almora
+065                 Champawat
+066                 Nainital
+067                 Udham Singh Nagar
+068                 Hardwar
+                    Haryana (12)
+069                 Panchkula
+070                 Ambala
+071                 Yamunanagar
+072                 Kurukshetra
+073                 Kaithal
+074                 Karnal
+075                 Panipat
+076                 Sonipat
+077                 Jind
+078                 Fatehabad
+079                 Sirsa
+080                 Hisar
+081                 Bhiwani
+082                 Rohtak
+083                 Jhajjar
+084                 Mahendragarh
+085                 Rewari
+086                 Gurgaon
+087                 Mewat
+088                 Faridabad
+089                 Palwal
+                    Delhi (25)
+090                 North West
+091                 North
+092                 North East
+093                 East
+094                 New Delhi
+095                 Central
+096                 West
+097                 South West
+098                 South
+                    Rajasthan (29)
+099                 Ganganagar
+100                 Hanumangarh
+101                 Bikaner
+102                 Churu
+103                 Jhunjhunun
+104                 Alwar
+105                 Bharatpur
+106                 Dhaulpur
+107                 Karauli
+108                 Sawai Madhopur
+109                 Dausa
+110                 Jaipur
+111                 Sikar
+112                 Nagaur
+113                 Jodhpur
+114                 Jaisalmer
+115                 Barmer
+116                 Jalor
+117                 Sirohi
+118                 Pali
+119                 Ajmer
+120                 Tonk
+121                 Bundi
+122                 Bhilwara
+123                 Rajsamand
+124                 Dungarpur
+125                 Banswara
+126                 Chittaurgarh
+127                 Kota
+128                 Baran
+129                 Jhalawar
+130                 Udaipur
+131                 Pratapgarh (in Rajasthan)
+                    Uttar Pradesh (33)
+132                 Saharanpur
+133                 Muzaffarnagar
+134                 Bijnor
+135                 Moradabad
+136                 Rampur
+137                 Jyotiba Phule Nagar
+138                 Meerut
+139                 Baghpat
+140                 Ghaziabad
+141                 Gautam Buddha Nagar
+142                 Bulandshahr
+143                 Aligarh
+144                 Mahamaya Nagar
+145                 Mathura
+146                 Agra
+147                 Firozabad
+148                 Mainpuri
+149                 Budaun
+150                 Bareilly
+151                 Pilibhit
+152                 Shahjahanpur
+153                 Kheri
+154                 Sitapur
+155                 Hardoi
+156                 Unnao
+157                 Lucknow
+158                 Rae Bareli
+159                 Farrukhabad
+160                 Kannauj
+161                 Etawah
+162                 Auraiya
+163                 Kanpur Dehat
+164                 Kanpur Nagar
+165                 Jalaun
+166                 Jhansi
+167                 Lalitpur
+168                 Hamirpur (in Uttar Pradesh)
+169                 Mahoba
+170                 Banda
+171                 Chitrakoot
+172                 Fatehpur
+173                 Pratapgarh (in Uttar Pradesh)
+174                 Kaushambi
+175                 Allahabad
+176                 Bara Banki
+177                 Faizabad
+178                 Ambedkar Nagar
+179                 Sultanpur
+180                 Bahraich
+181                 Shrawasti
+182                 Balrampur
+183                 Gonda
+184                 Siddharth Nagar
+185                 Basti
+186                 Sant Kabir Nagar
+187                 Mahrajganj
+188                 Gorakhpur
+189                 Kushinagar
+190                 Deoria
+191                 Azamgarh
+192                 Mau
+193                 Ballia
+194                 Jaunpur
+195                 Ghazipur
+196                 Chandauli
+197                 Varanasi
+198                 Sant Ravidas Nagar (Bhadohi)
+199                 Mirzapur
+200                 Sonbhadra
+201                 Etah
+202                 Kanshiram Nagar
+                    Bihar (05)
+203                 Pashchim Champaran
+204                 Purba Champaran
+205                 Sheohar
+206                 Sitamarhi
+207                 Madhubani
+208                 Supaul
+209                 Araria
+210                 Kishanganj
+211                 Purnia
+212                 Katihar
+213                 Madhepura
+214                 Saharsa
+215                 Darbhanga
+216                 Muzaffarpur
+217                 Gopalganj
+218                 Siwan
+219                 Saran
+220                 Vaishali
+221                 Samastipur
+222                 Begusarai
+223                 Khagaria
+224                 Bhagalpur
+225                 Banka
+226                 Munger
+227                 Lakhisarai
+228                 Sheikhpura
+229                 Nalanda
+230                 Patna
+231                 Bhojpur
+232                 Buxar
+233                 Kaimur (Bhabua)
+234                 Rohtas
+235                 Aurangabad (in Bihar)
+236                 Gaya
+237                 Nawada
+238                 Jamui
+239                 Jehanabad
+240                 Arwal
+                    Sikkim (30)
+241                 North District
+242                 West District
+243                 South District
+244                 East District
+                    Arunachal Pradesh (03)
+245                 Tawang
+246                 West Kameng
+247                 East Kameng
+248                 Papumpare
+249                 Upper Subansiri
+250                 West Siang
+251                 East Siang
+252                 Upper Siang
+253                 Changlang
+254                 Tirap
+255                 Lower Subansiri
+256                 Kurung Kumey
+257                 Dibang Valley
+258                 Lower Dibang Valley
+259                 Lohit
+260                 Anjaw
+                    Nagaland (24)
+261                 Mon
+262                 Mokokchung
+263                 Zunheboto
+264                 Wokha
+265                 Dimapur
+266                 Phek
+267                 Tuensang
+268                 Longleng
+269                 Kiphire
+270                 Kohima
+271                 Peren
+                    Manipur (21)
+272                 Senapati (Excluding 3 Sub-Divisions)
+273                 Tamenglong
+274                 Churachandpur
+275                 Bishnupur
+276                 Thoubal
+277                 Imphal West
+278                 Imphal East
+279                 Ukhrul
+280                 Chandel
+                    Mizoram (23)
+281                 Mamit
+282                 Kolasib
+283                 Aizawl
+284                 Champhai
+285                 Serchhip
+286                 Lunglei
+287                 Lawngtlai
+288                 Saiha
+                    Tripura (32)
+289                 West Tripura
+290                 South Tripura
+291                 Dhalai
+292                 North Tripura
+                    Meghalaya (22)
+293                 West Garo Hills
+294                 East Garo Hills
+295                 South Garo Hills
+296                 West Khasi Hills
+297                 Ribhoi
+298                 East Khasi Hills
+299                 Jaintia Hills
+                    Assam (04)
+300                 Kokrajhar
+301                 Dhubri
+302                 Goalpara
+303                 Barpeta
+304                 Morigaon
+305                 Nagaon
+306                 Sonitpur
+307                 Lakhimpur
+308                 Dhemaji
+309                 Tinsukia
+310                 Dibrugarh
+311                 Sivasagar
+312                 Jorhat
+313                 Golaghat
+314                 Karbi Anglong
+315                 Dima Hasao
+316                 Cachar
+317                 Karimganj
+318                 Hailakandi
+319                 Bongaigaon
+320                 Chirang
+321                 Kamrup
+322                 Kamrup Metropolitan
+323                 Nalbari
+324                 Baksa
+325                 Darrang
+326                 Udalguri
+                    West Bengal (35)
+327                 Darjiling
+328                 Jalpaiguri
+329                 Koch Bihar
+330                 Uttar Dinajpur
+331                 Dakshin Dinajpur
+332                 Maldah
+333                 Murshidabad
+334                 Birbhum
+335                 Barddhaman
+336                 Nadia
+337                 North Twenty Four Parganas
+338                 Hugli
+339                 Bankura
+340                 Puruliya
+341                 Haora
+342                 Kolkata
+343                 South Twenty Four Parganas
+344                 Paschim Medinipur
+345                 Purba Medinipur
+                    Jharkhand (15)
+346                 Garhwa
+347                 Chatra
+348                 Kodarma
+349                 Giridih
+350                 Deoghar
+351                 Godda
+352                 Sahibganj
+353                 Pakur
+354                 Dhanbad
+355                 Bokaro
+356                 Lohardaga
+357                 Purbi Singhbhum
+358                 Palamu
+359                 Latehar
+360                 Hazaribagh
+361                 Ramgarh
+362                 Dumka
+363                 Jamtara
+364                 Ranchi
+365                 Khunti
+366                 Gumla
+367                 Simdega
+368                 Pashchimi Singhbhum
+369                 Saraikela Kharsawan
+                    Odisha (26)
+370                 Bargarh
+371                 Jharsuguda
+372                 Sambalpur
+373                 Debagarh
+374                 Sundargarh
+375                 Kendujhar
+376                 Mayurbhanj
+377                 Baleshwar
+378                 Bhadrak
+379                 Kendrapara
+380                 Jagatsinghapur
+381                 Cuttack
+382                 Jajapur
+383                 Dhenkanal
+384                 Anugul
+385                 Nayagarh
+386                 Khordha
+387                 Puri
+388                 Ganjam
+389                 Gajapati
+390                 Kandhamal
+391                 Baudh
+392                 Subarnapur
+393                 Balangir
+394                 Nuapada
+395                 Kalahandi
+396                 Rayagada
+397                 Nabarangapur
+398                 Koraput
+399                 Malkangiri
+                    Chhattisgarh (07)
+400                 Korea (Koriya)
+401                 Surguja
+402                 Jashpur
+403                 Raigarh (in Chhattisgarh)
+404                 Korba
+405                 Janjgir - Champa
+406                 Bilaspur (in Chhattisgarh)
+407                 Kabirdham
+408                 Rajnandgaon
+409                 Durg
+410                 Raipur
+411                 Mahasamund
+412                 Dhamtari
+413                 Uttar Bastar Kanker
+414                 Bastar
+415                 Narayanpur
+416                 Dakshin Bastar Dantewada
+417                 Bijapur (in Chhattisgarh)
+                    Madhya Pradesh (19)
+418                 Sheopur
+419                 Morena
+420                 Bhind
+421                 Gwalior
+422                 Datia
+423                 Shivpuri
+424                 Tikamgarh
+425                 Chhatarpur
+426                 Panna
+427                 Sagar
+428                 Damoh
+429                 Satna
+430                 Rewa
+431                 Umaria
+432                 Neemuch
+433                 Mandsaur
+434                 Ratlam
+435                 Ujjain
+436                 Shajapur
+437                 Dewas
+438                 Dhar
+439                 Indore
+440                 Khargone (West Nimar)
+441                 Barwani
+442                 Rajgarh
+443                 Vidisha
+444                 Bhopal
+445                 Sehore
+446                 Raisen
+447                 Betul
+448                 Harda
+449                 Hoshangabad
+450                 Katni
+451                 Jabalpur
+452                 Narsimhapur
+453                 Dindori
+454                 Mandla
+455                 Chhindwara
+456                 Seoni
+457                 Balaghat
+458                 Guna
+459                 Ashoknagar
+460                 Shahdol
+461                 Anuppur
+462                 Sidhi
+463                 Singrauli
+464                 Jhabua
+465                 Alirajpur
+466                 Khandwa (East Nimar)
+467                 Burhanpur
+                    Gujarat (11)
+468                 Kachchh
+469                 Banaskantha
+470                 Patan
+471                 Mahesana
+472                 Sabarkantha
+473                 Gandhinagar
+474                 Ahmadabad
+475                 Surendranagar
+476                 Rajkot
+477                 Jamnagar
+478                 Porbandar
+479                 Junagadh
+480                 Amreli
+481                 Bhavnagar
+482                 Anand
+483                 Kheda
+484                 Panchmahal
+485                 Dohad
+486                 Vadodara
+487                 Narmada
+488                 Bharuch
+489                 The Dangs
+490                 Navsari
+491                 Valsad
+492                 Surat
+493                 Tapi
+                    Daman and Diu (09)
+494                 Diu
+495                 Daman
+                    Dadra and Nagar Haveli (08)
+496                 Dadra and Nagar Haveli
+                    Maharashtra (20)
+497                 Nandurbar
+498                 Dhule
+499                 Jalgaon
+500                 Buldana
+501                 Akola
+502                 Washim
+503                 Amravati
+504                 Wardha
+505                 Nagpur
+506                 Bhandara
+507                 Gondiya
+508                 Gadchiroli
+509                 Chandrapur
+510                 Yavatmal
+511                 Nanded
+512                 Hingoli
+513                 Parbhani
+514                 Jalna
+515                 Aurangabad (in Maharashstra)
+516                 Nashik
+517                 Thane
+518                 Mumbai Suburban
+519                 Mumbai
+520                 Raigarh (in Maharashtra)
+521                 Pune
+522                 Ahmadnagar
+523                 Bid
+524                 Latur
+525                 Osmanabad
+526                 Solapur
+527                 Satara
+528                 Ratnagiri
+529                 Sindhudurg
+530                 Kolhapur
+531                 Sangli
+                    Telangana (36)
+532                 Adilabad
+533                 Nizamabad
+534                 Karimnagar
+535                 Medak
+536                 Hyderabad
+537                 Rangareddy
+538                 Mahbubnagar
+539                 Nalgonda
+540                 Warangal
+541                 Khammam
+                    Andhra Pradesh (02)
+542                 Srikakulam
+543                 Vizianagaram
+544                 Visakhapatnam
+545                 East Godavari
+546                 West Godavari
+547                 Krishna
+548                 Guntur
+549                 Prakasam
+550                 Sri Potti Sriramulu Nellore
+551                 Y.S.R.
+552                 Kurnool
+553                 Anantapur
+554                 Chittoor
+                    Karnataka (16)
+555                 Belgaum
+556                 Bagalkot
+557                 Bijapur (in Kamataka)
+558                 Bidar
+559                 Raichur
+560                 Koppal
+561                 Gadag
+562                 Dharwad
+563                 Uttara Kannada
+564                 Haveri
+565                 Bellary
+566                 Chitradurga
+567                 Davanagere
+568                 Shimoga
+569                 Udupi
+570                 Chikmagalur
+571                 Tumkur
+572                 Bangalore
+573                 Mandya
+574                 Hassan
+575                 Dakshina Kannada
+576                 Kodagu
+577                 Mysore
+578                 Chamarajanagar
+579                 Gulbarga
+580                 Yadgir
+581                 Kolar
+582                 Chikkaballapura
+583                 Bangalore Rural
+584                 Ramanagara
+                    Goa (10)
+585                 North Goa
+586                 South Goa
+                    Lakshadweep (18)
+587                 Lakshadweep
+                    Kerala (17)
+588                 Kasaragod
+589                 Kannur
+590                 Wayanad
+591                 Kozhikode
+592                 Malappuram
+593                 Palakkad
+594                 Thrissur
+595                 Ernakulam
+596                 Idukki
+597                 Kottayam
+598                 Alappuzha
+599                 Pathanamthitta
+600                 Kollam
+601                 Thiruvananthapuram
+                    Tamil Nadu (31)
+602                 Thiruvallur
+603                 Chennai
+604                 Kancheepuram
+605                 Vellore
+606                 Tiruvannamalai
+607                 Viluppuram
+608                 Salem
+609                 Namakkal
+610                 Erode
+611                 The Nilgiris
+612                 Dindigul
+613                 Karur
+614                 Tiruchirappalli
+615                 Perambalur
+616                 Ariyalur
+617                 Cuddalore
+618                 Nagapattinam
+619                 Thiruvarur
+620                 Thanjavur
+621                 Pudukkottai
+622                 Sivaganga
+623                 Madurai
+624                 Theni
+625                 Virudhunagar
+626                 Ramanathapuram
+627                 Thoothukkudi
+628                 Tirunelveli
+629                 Kanniyakumari
+630                 Dharmapuri
+631                 Krishnagiri
+632                 Coimbatore
+633                 Tiruppur
+                    Puducherry (27)
+634                 Yanam
+635                 Puducherry
+636                 Mahe
+637                 Karaikal
+                    Andaman and Nicobar Islands (01)
+638                 Nicobars
+639                 North and Middle Andaman
+640                 South Andaman
+
+AGE                 Age
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+36                  36
+37                  37
+38                  38
+39                  39
+40                  40
+41                  41
+42                  42
+43                  43
+44                  44
+45                  45
+46                  46
+47                  47
+48                  48
+49                  49
+50                  50
+51                  51
+52                  52
+53                  53
+54                  54
+55                  55
+56                  56
+57                  57
+58                  58
+59                  59
+60                  60
+61                  61
+62                  62
+63                  63
+64                  64
+
+AGE5YEAR            Age in 5 year groups
+10                  10 to 14
+11                  10-14
+12                  12-14
+13                  13-14
+20                  15-19
+30                  20-24
+40                  25-29
+50                  30-34
+60                  35-39
+70                  40-44
+80                  45-49
+90                  50+
+91                  50-54
+92                  55-59
+93                  60-64
+
+BIRTHMO             Woman's month of birth
+01                  January
+02                  February
+03                  March
+04                  April
+05                  May
+06                  June
+07                  July
+08                  August
+09                  September
+10                  October
+11                  November
+12                  December
+
+BIRTHYEAR           Woman's year of birth
+1936                1936
+1937                1937
+1938                1938
+1939                1939
+1940                1940
+1941                1941
+1942                1942
+1943                1943
+1944                1944
+1945                1945
+1946                1946
+1947                1947
+1948                1948
+1949                1949
+1950                1950
+1951                1951
+1952                1952
+1953                1953
+1954                1954
+1955                1955
+1956                1956
+1957                1957
+1958                1958
+1959                1959
+1960                1960
+1961                1961
+1962                1962
+1963                1963
+1964                1964
+1965                1965
+1966                1966
+1967                1967
+1968                1968
+1969                1969
+1970                1970
+1971                1971
+1972                1972
+1973                1973
+1974                1974
+1975                1975
+1976                1976
+1977                1977
+1978                1978
+1979                1979
+1980                1980
+1981                1981
+1982                1982
+1983                1983
+1984                1984
+1985                1985
+1986                1986
+1987                1987
+1988                1988
+1989                1989
+1990                1990
+1991                1991
+1992                1992
+1993                1993
+1994                1994
+1995                1995
+1996                1996
+1997                1997
+1998                1998
+1999                1999
+2000                2000
+2001                2001
+2002                2002
+2003                2003
+2004                2004
+2005                2005
+
+DOBINFORESP         Information given on respondent's date of birth
+1                   Month and year
+2                   Month and age, year imputed
+3                   Year and age, month imputed
+4                   Year and age, year ignored
+5                   Year only, age and month imputed
+6                   Age only, year and month imputed
+7                   Month only, age and year imputed
+8                   Season and year
+9                   None reported, all imputed
+
+RESIDENT            Usual resident or visitor
+1                   Usual resident
+2                   Visitor
+8                   Missing
+
+RELATE              Respondent's relationship to HH head
+01                  Head
+02                  Wife
+03                  Daughter or son
+04                  Daughter- or son-in-law
+05                  Grandchild
+06                  Mother or father
+07                  Parent-in-law
+08                  Sister or brother
+09                  Co-spouse
+10                  Adopted/foster/step child
+11                  Adopted/foster child
+12                  Stepchild
+20                  Other relative
+21                  Niece or nephew by blood
+22                  Niece or nephew by marriage
+23                  Niece or nephew unspecified
+24                  Sibling-in-law
+25                  Aunt or uncle
+26                  Grandparent
+30                  Nonrelative
+31                  Domestic servant/employee
+32                  Herdboy
+97                  Don't know
+98                  Missing
+
+PREGNANT            Currently pregnant
+0                   No/unsure
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+DURCURPREG          Duration of current pregnancy
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+97                  Don't know
+98                  Missing
+99                  NIU (not in universe)
+
+TRIPAWAY1MO         Respondent away from home for over 1 month in last year
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+TRIPAWAY6MO         Respondent away from home for over 6 months in last year
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+RELIGION            Religion
+0000                NO RELIGION
+1000                MUSLIM
+2000                CHRISTIAN
+2100                Catholic
+2200                Orthodox
+2300                Protestant
+2310                Lutheran
+2320                Anglican
+2330                Presbyterian
+2340                Baptist/Seventh-day Adventist
+2341                Baptist
+2342                Seventh-day Adventist
+2350                Apostolic
+2351                New Apostolic
+2360                Salvation Army
+2370                Methodist
+2380                Pentecostal-based
+2381                Pentecostal
+2382                Celestial Church of Christ
+2383                Universal
+2384                Assemblies of God
+2385                Charismatic
+2386                Christian Revival Church
+2390                Other Protestant
+2391                Evangelical
+2392                Lesotho Evangelical Church
+2393                Kimbanguist (Congo, Democratic Republic and Republic)
+2394                Christian Zionist
+2400                Nontrinitarian
+2410                Jehovah's Witness
+2411                Adventist/Jehovah's Witness
+2900                Other Christian, country-specific
+2901                Mammon (Uganda)
+2902                Mana
+3000                BUDDHIST/NEO-BUDDHIST
+3100                Buddhist
+4000                HINDU
+5000                JEWISH
+6000                TRADITIONAL/SPIRITUAL/ANIMIST
+6100                Traditional
+6200                Spiritual
+6300                Animist
+6400                Specified Traditional
+6401                Donyi-Polo
+6402                Sanamahi
+6403                Vodun
+7000                OTHER (SPECIFIED)
+7100                Baha'i
+7200                Sikh
+7300                Zoroastrian
+7400                Jain
+7900                Country-specific other
+7901                Sect (Burundi)
+7902                Bundu dia Kongo (Congo, Democratic Republic)
+7903                Vuvamu (Congo, Democratic Republic)
+7904                Kirat Mundhum (Nepal)
+7905                Zephirin/Matsouaniste/Ngunza (Congo, Republic)
+9000                OTHER
+9001                Religion 1
+9002                Religion 2
+9003                Religion 3
+9004                Religion 4
+9998                Missing
+9999                NIU (not in universe)
+
+ETHNICITYIA         Ethnicity, India
+10                  Scheduled caste
+20                  Scheduled tribe
+30                  Other
+31                  Other backward caste
+32                  None of them
+97                  Don't know
+98                  Missing
+
+MARSTAT             Woman's current marital or union status
+10                  Never married
+11                  Unconsummated marriage
+20                  Married or living together
+21                  Married
+22                  Living together
+30                  Formerly in union
+31                  Widowed
+32                  Divorced
+33                  Separated/not living together
+34                  Deserted
+98                  Missing
+
+CHEB                Total children ever born
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+36                  36
+37                  37
+38                  38
+39                  39
+40                  40
+41                  41
+42                  42
+43                  43
+44                  44
+45                  45
+46                  46
+47                  47
+48                  48
+49                  49
+50                  50
+98                  Missing
+99                  NIU (Not in universe)
+
+TOTBIRTHIST         Number of entries in the birth history
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+98                  Missing
+99                  NIU (not in universe)
+
+SONSATHOME          Number of own sons living at home
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+99                  NIU (not in universe)
+
+DAUSATHOME          Number of own daughters living at home
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+99                  NIU (not in universe)
+
+SONSAWAYHOME        Number of own sons living away from home
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+99                  NIU (not in universe)
+
+DAUSAWAYHOME        Number of own daughters living away from home
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+99                  NIU (not in universe)
+
+SONSDIED            Number of own sons who have died
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+99                  NIU (not in universe)
+
+DAUSDIED            Number of own daughters who have died
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+98                  Missing
+99                  NIU (not in universe)
+
+BIRTHSIN5YRS        Number of births in last 5 years
+0                   0
+1                   1
+2                   2
+3                   3
+4                   4
+5                   5
+6                   6
+7                   7
+8                   8
+9                   NIU (not in universe)
+
+BIRTHSIN1YR         Number of births in the past year
+0                   0
+1                   1
+2                   2
+3                   3
+4                   4
+5                   5
+8                   Missing
+9                   NIU (not in universe)
+
+BIRTHSIN1MO         Total number of births in month of interview
+0                   0
+1                   1
+2                   2
+3                   3
+8                   Missing
+9                   NIU (not in universe)
+
+DOB1STKIDCMC        Date of respondent's first birth, in century months
+9998                Missing
+9999                NIU (not in universe)
+
+TIMEMENSTRUATE      Time since woman's last menstrual period
+100                 Day of Interview
+101                 Days: 1
+102                 2 days
+103                 3 days
+104                 4 days
+105                 5 days
+106                 6 days
+107                 7 days
+108                 8 days
+109                 9 days
+110                 10 days
+111                 11 days
+112                 12 days
+113                 13 days
+114                 14 days
+115                 15 days
+116                 16 days
+117                 17 days
+118                 18 days
+119                 19 days
+120                 20 days
+121                 21 days
+122                 22 days
+123                 23 days
+124                 24 days
+125                 25 days
+126                 26 days
+127                 27 days
+128                 28 days
+129                 29 days
+130                 30 days
+131                 31 days
+132                 32 days
+133                 33 days
+134                 34 days
+135                 35 days
+136                 36 days
+137                 37 days
+138                 38 days
+139                 39 days
+140                 40 days
+141                 41 days
+142                 42 days
+143                 43 days
+144                 44 days
+145                 45 days
+146                 46 days
+147                 47 days
+148                 48 days
+149                 49 days
+150                 50 days
+151                 51 days
+152                 52 days
+153                 53 days
+154                 54 days
+155                 55 days
+156                 56 days
+157                 57 days
+158                 58 days
+159                 59 days
+160                 60 days
+161                 61 days
+162                 62 days
+163                 63 days
+164                 64 days
+165                 65 days
+166                 66 days
+167                 67 days
+168                 68 days
+169                 69 days
+170                 70 days
+171                 71 days
+172                 72 days
+173                 73 days
+174                 74 days
+175                 75 days
+176                 76 days
+177                 77 days
+178                 78 days
+179                 79 days
+180                 80 days
+181                 81 days
+182                 82 days
+183                 83 days
+184                 84 days
+185                 85 days
+186                 86 days
+187                 87 days
+188                 88 days
+189                 89 days
+190                 90 days
+191                 91 days
+192                 92 days
+193                 93 days
+194                 94 days
+195                 95 days
+196                 96 days
+197                 97 days
+198                 98 days
+199                 Days: Number missing
+200                 Weeks
+201                 201 Weeks: 1
+202                 2 weeks
+203                 3 weeks
+204                 4 weeks
+205                 5 weeks
+206                 6 weeks
+207                 7 weeks
+208                 8 weeks
+209                 9 weeks
+210                 10 weeks
+211                 11 weeks
+212                 12 weeks
+213                 13 weeks
+214                 14 weeks
+215                 15 weeks
+216                 16 weeks
+217                 17 weeks
+218                 18 weeks
+219                 19 weeks
+220                 20 weeks
+221                 21 weeks
+222                 22 weeks
+223                 23 weeks
+224                 24 weeks
+225                 25 weeks
+226                 26 weeks
+227                 27 weeks
+228                 28 weeks
+229                 29 weeks
+230                 30 weeks
+231                 31 weeks
+232                 32 weeks
+233                 33 weeks
+234                 34 weeks
+235                 35 weeks
+236                 36 weeks
+237                 37 weeks
+238                 38 weeks
+239                 39 weeks
+240                 40 weeks
+241                 41 weeks
+242                 42 weeks
+243                 43 weeks
+244                 44 weeks
+245                 45 weeks
+246                 46 weeks
+247                 47 weeks
+248                 48 weeks
+249                 49 weeks
+250                 50 weeks
+251                 51 weeks
+252                 52 weeks
+253                 53 weeks
+254                 54 weeks
+255                 55 weeks
+256                 56 weeks
+257                 57 weeks
+258                 58 weeks
+259                 59 weeks
+260                 60 weeks
+261                 61 weeks
+262                 62 weeks
+263                 63 weeks
+264                 64 weeks
+265                 65 weeks
+266                 66 weeks
+267                 67 weeks
+268                 68 weeks
+269                 69 weeks
+270                 70 weeks
+271                 71 weeks
+272                 72 weeks
+273                 73 weeks
+274                 74 weeks
+275                 75 weeks
+276                 76 weeks
+277                 77 weeks
+278                 78 weeks
+279                 79 weeks
+280                 80 weeks
+281                 81 weeks
+282                 82 weeks
+283                 83 weeks
+284                 84 weeks
+285                 85 weeks
+286                 86 weeks
+287                 87 weeks
+288                 88 weeks
+289                 89 weeks
+290                 90 weeks
+291                 91 weeks
+292                 92 weeks
+293                 93 weeks
+294                 94 weeks
+295                 95 weeks
+296                 96 weeks
+297                 97 weeks
+298                 98 weeks
+299                 Weeks: Number missing
+300                 Months
+301                 301 Months: 1
+302                 2 months
+303                 3 months
+304                 4 months
+305                 5 months
+306                 6 months
+307                 7 months
+308                 8 months
+309                 9 months
+310                 10 months
+311                 11 months
+312                 12 months
+313                 13 months
+314                 14 months
+315                 15 months
+316                 16 months
+317                 17 months
+318                 18 months
+319                 19 months
+320                 20 months
+321                 21 months
+322                 22 months
+323                 23 months
+324                 24 months
+325                 25 months
+326                 26 months
+327                 27 months
+328                 28 months
+329                 29 months
+330                 30 months
+331                 31 months
+332                 32 months
+333                 33 months
+334                 34 months
+335                 35 months
+336                 36 months
+337                 37 months
+338                 38 months
+339                 39 months
+340                 40 months
+341                 41 months
+342                 42 months
+343                 43 months
+344                 44 months
+345                 45 months
+346                 46 months
+347                 47 months
+348                 48 months
+349                 49 months
+350                 50 months
+351                 51 months
+352                 52 months
+353                 53 months
+354                 54 months
+355                 55 months
+356                 56 months
+357                 57 months
+358                 58 months
+359                 59 months
+360                 60 months
+361                 61 months
+362                 62 months
+363                 63 months
+364                 64 months
+365                 65 months
+366                 66 months
+367                 67 months
+368                 68 months
+369                 69 months
+370                 70 months
+371                 71 months
+372                 72 months
+373                 73 months
+374                 74 months
+375                 75 months
+376                 76 months
+377                 77 months
+378                 78 months
+379                 79 months
+380                 80 months
+381                 81 months
+382                 82 months
+383                 83 months
+384                 84 months
+385                 85 months
+386                 86 months
+387                 87 months
+388                 88 months
+389                 89 months
+390                 90 months
+391                 91 months
+392                 92 months
+393                 93 months
+394                 94 months
+395                 95 months
+396                 96 months
+397                 97 months
+398                 98 months
+399                 Months: Number missing
+400                 Years
+401                 Years: 1
+402                 2 years
+403                 3 years
+404                 4 years
+405                 5 years
+406                 6 years
+407                 7 years
+408                 8 years
+409                 9 years
+410                 10 years
+411                 11 years
+412                 12 years
+413                 13 years
+414                 14 years
+415                 15 years
+416                 16 years
+417                 17 years
+418                 18 years
+419                 19 years
+420                 20 years
+421                 21 years
+422                 22 years
+423                 23 years
+424                 24 years
+425                 25 years
+426                 26 years
+427                 27 years
+428                 28 years
+429                 29 years
+430                 30 years
+431                 31 years
+432                 32 years
+433                 33 years
+434                 34 years
+435                 35 years
+436                 36 years
+437                 37 years
+438                 38 years
+439                 39 years
+440                 40 years
+441                 41 years
+442                 42 years
+443                 43 years
+444                 44 years
+445                 45 years
+446                 46 years
+447                 47 years
+448                 48 years
+449                 49+ years
+499                 Years: number missing
+992                 Currently pregnant
+993                 In menopause/had hysterectomy
+994                 Before last birth
+995                 Never menstruated
+996                 Inconsistent
+997                 Don't know
+998                 Missing
+999                 NIU (not in universe)
+
+MENSTRUATE6WK       Woman menstruated in last 6 weeks
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+OVCYCLE             When in cycle thinks pregnancy is most likely
+1                   During her period
+2                   After period ended
+3                   Middle of the cycle
+4                   Before period begins
+5                   At any time
+6                   Other/It depends
+7                   Don't know
+8                   Missing
+9                   NIU (not in universe)
+
+CHEBALIVE           Total number of living children born to respondent
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+98                  Missing
+99                  NIU (not in universe)
+
+CHSURVPLUSPG        Total number of living children including current pregnancy
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+98                  Missing
+99                  NIU (not in universe)
+
+CHEBALIVETRUNC      Total number of living children, truncated at 6+
+0                   0
+1                   1
+2                   2
+3                   3
+4                   4
+5                   5
+6                   6+
+8                   Missing
+9                   NIU (not in universe)
+
+LASTBIRTHTOINTMO    Interval between last birth and interview, in months
+998                 Missing
+999                 NIU (not in universe)
+
+CONCEPTDATEFLAG     Completeness of information on date of conception, current pregnancy
+1                   Month- exact date
+2                   Date missing, imputed
+9                   NIU (not in universe)
+
+MENSTIMFLAG         Flag for reported time since last menstrual period
+00                  No flag
+01                  Number GT interval since birth
+02                  Number plus amenorrhea GT interval
+03                  Number reported, but period not returned
+04                  Reported before last birth, but no birth
+05                  Reported before last birth, but period since
+06                  Reported never menstruated, but period returned
+07                  Reported time during pregnancy
+08                  Reported never menstruated but had kids
+09                  Reported period before last birth
+98                  Missing
+99                  NIU (not in universe)
+
+PREGTERMIN          Ever had pregnancy terminate via abortion, miscarriage or stillbirth
+0                   No
+1                   Yes
+7                   Don't know
+8                   Missing
+9                   NIU (not in universe)
+
+PREGTERMINMO        Calendar month of pregnancy termination
+01                  January
+02                  February
+03                  March
+04                  April
+05                  May
+06                  June
+07                  July
+08                  August
+09                  September
+10                  October
+11                  November
+12                  December
+96                  Inconsistent
+97                  Don't know
+98                  Missing
+99                  NIU (not in universe)
+
+PREGTERMINYR        Year of last pregnancy termination
+1956                1956
+1957                1957
+1958                1958
+1959                1959
+1960                1960
+1961                1961
+1962                1962
+1963                1963
+1964                1964
+1965                1965
+1966                1966
+1967                1967
+1968                1968
+1969                1969
+1970                1970
+1971                1971
+1972                1972
+1973                1973
+1974                1974
+1975                1975
+1976                1976
+1977                1977
+1978                1978
+1979                1979
+1980                1980
+1981                1981
+1982                1982
+1983                1983
+1984                1984
+1985                1985
+1986                1986
+1987                1987
+1988                1988
+1989                1989
+1990                1990
+1991                1991
+1992                1992
+1993                1993
+1994                1994
+1995                1995
+1996                1996
+1997                1997
+1998                1998
+1999                1999
+2000                2000
+2001                2001
+2002                2002
+2003                2003
+2004                2004
+2005                2005
+2006                2006
+2007                2007
+2008                2008
+2009                2009
+2010                2010
+2011                2011
+2012                2012
+2013                2013
+2014                2014
+2015                2015
+2016                2016
+2017                2017
+2018                2018
+2019                2019
+9996                Inconsistent
+9997                Don't know
+9998                Missing
+9999                NIU (not in universe)
+
+PREGTERMTIM         Months pregnant when pregnancy terminated
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9+
+96                  Inconsistent
+97                  Don't know
+98                  Missing
+99                  NIU (not in universe)
+
+PREGTERMPREV        Respondent had previous pregnancy terminations (in last 5 years)
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+PRECALBIDX          Birth history index for last child born prior to the start of the calendar
+0                   No prior child
+1                   1 (or yes, prior child)
+2                   2
+3                   3
+4                   4
+5                   5
+6                   6
+7                   7
+8                   8+
+9                   NIU (not in universe)
+
+BIRTHSOTHER         Other live births in interval between last birth reported and date of interview
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+BIRTHSTOT3YR        Total births in last 3 years prior to interview
+0                   0
+1                   1
+2                   2
+3                   3
+4                   4
+5                   5
+6                   6
+8                   Missing
+9                   NIU (not in universe)
+
+PRECALTERM          Had pregnancies ending in miscarriage, abortion or stillbirth before calendar beginning
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+PRECALTERMMO        Month of last pregnancy termination prior to calendar
+01                  January
+02                  February
+03                  March
+04                  April
+05                  May
+06                  June
+07                  July
+08                  August
+09                  September
+10                  October
+11                  November
+12                  December
+96                  Inconsistent
+97                  Don't know
+98                  Missing
+99                  NIU (not in universe)
+
+PRECALTERMYR        Year of last pregnancy termination prior to calendar
+1960                1960
+1961                1961
+1962                1962
+1963                1963
+1964                1964
+1965                1965
+1966                1966
+1967                1967
+1968                1968
+1969                1969
+1970                1970
+1971                1971
+1972                1972
+1973                1973
+1974                1974
+1975                1975
+1976                1976
+1977                1977
+1978                1978
+1979                1979
+1980                1980
+1981                1981
+1982                1982
+1983                1983
+1984                1984
+1985                1985
+1986                1986
+1987                1987
+1988                1988
+1989                1989
+1990                1990
+1991                1991
+1992                1992
+1993                1993
+1994                1994
+1995                1995
+1996                1996
+1997                1997
+1998                1998
+1999                1999
+2000                2000
+2001                2001
+2002                2002
+2003                2003
+2004                2004
+2005                2005
+2006                2006
+2007                2007
+2008                2008
+2009                2009
+2010                2010
+2011                2011
+2012                2012
+2013                2013
+2014                2014
+2015                2015
+2016                2016
+9996                Inconsistent
+9997                Don't know
+9998                Missing
+9999                NIU (not in universe)
+
+PRECALTERMCMC       Century month date of last pregnancy termination prior to calendar
+9996                Inconsistent
+9997                Don't know
+9998                Missing
+9999                NIU (not in universe)
+
+PRECALTERMCOMP      Completeness of information for last pregnancy termination prior to calendar  
+1                   Month and year
+2                   From calendar
+3                   Year only
+4                   Month only
+7                   None
+8                   Missing
+9                   NIU (not in universe)
+
+CALCOLNO            Number of calendar columns
+0                   No Calendar
+1                   1
+2                   2
+3                   3
+4                   4
+5                   5
+6                   6
+7                   7
+8                   8
+
+CALINTMOROW         Row of calendar representing month of interview
+00                  No Calendar
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+
+CALLENGTH           Length of calendar to use for this case
+00                  No Calendar
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+36                  36
+37                  37
+38                  38
+39                  39
+40                  40
+41                  41
+42                  42
+43                  43
+44                  44
+45                  45
+46                  46
+47                  47
+48                  48
+49                  49
+50                  50
+51                  51
+52                  52
+53                  53
+54                  54
+55                  55
+56                  56
+57                  57
+58                  58
+59                  59
+60                  60
+61                  61
+62                  62
+63                  63
+64                  64
+65                  65
+66                  66
+67                  67
+68                  68
+69                  69
+70                  70
+71                  71
+72                  72
+73                  73
+74                  74
+75                  75
+76                  76
+77                  77
+78                  78
+79                  79
+80                  80
+81                  81
+82                  82
+83                  83
+84                  84
+85                  85
+
+AGEMENARCHE         Age at first period
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+36                  36+
+95                  Never menstruated
+96                  Inconsistent
+97                  Don't know
+98                  Missing
+99                  NIU (not in universe)
+
+MENSUSECLOTH        Use cloth to protect against bloodstains during menstruation
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+MENSUSELOCNAP       Use locally prepared napkins to protect against bloodstains during menstruation
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+MENSUSESANNAP       Use sanitary napkins to protect against bloodstains during menstruation
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+MENSUSETAMPON       Use tampons to protect against bloodstains during menstruation
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+MENSUSEOTHER        Use other to protect against bloodstains during menstruation
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+MENSUSENONE         Use nothing to protect against bloodstains during menstruation
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+AGEAT1STBIRTH       Age of respondent at time of first birth
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+36                  36
+37                  37
+38                  38
+39                  39
+40                  40
+41                  41
+42                  42
+43                  43
+44                  44
+45                  45
+46                  46
+47                  47
+48                  48
+49                  49
+98                  Missing
+99                  NIU (not in universe)
+
+PREGTERMCMC         Century month date of last pregnancy termination
+9996                Inconsistent
+9997                Don't know
+9998                Missing
+9999                NIU (not in universe)
+
+PREGTERMFLAG        Date flag for last terminated pregnancy
+1                   Month and year
+2                   From calendar
+3                   Year
+4                   Month
+5                   None
+8                   Missing
+9                   NIU (not in universe)
+
+PREGTERMTYP         Type of pregnancy termination
+10                  Stillbirth
+20                  Miscarriage
+30                  Abortion
+40                  Other
+41                  Menstrual regulation
+98                  MIssing
+99                  NIU (not in universe)
+
+PREGTERMULTRA       Had ultrasound before pregnancy termination
+0                   No
+1                   Yes
+8                   MIssing
+9                   NIU (not in universe)
+
+ABORTWHO            Who performed respondent's most recent abortion
+10                  HEALTH PROFESSIONAL
+11                  Doctor
+12                  Nurse/midwife/LHV
+20                  OTHER PERSON
+21                  Traditional birth attendant
+22                  Relative/friend
+23                  Self
+95                  Other
+99                  NIU (not in universe)
+
+ABORTPLACE          Place where most recent abortion was performed
+1000                PUBLIC SECTOR
+1100                Government hospital
+1110                District hospital
+1120                Rural hospital
+1200                Government health center
+1210                Urban health center
+1220                Primary health center
+1300                Government dispensary
+1400                Government outreach
+1410                Government mobile clinic
+1420                Government health post
+1430                Government health worker
+1431                Traditional practitioner
+1900                Other public sector
+2000                PRIVATE MEDICAL SECTOR
+2100                Private hospital/clinic
+2200                Private dispensary
+2300                Private health worker
+2310                Private traditional practitioner
+2311                Private doctor
+2312                Nursing office
+2900                Other private medical sector
+3000                NGO FACILITY
+3100                NGO health facility
+4000                UNSPECIFIED MEDICAL SECTOR
+4001                Clinic
+4002                Hospital
+5000                OTHER
+5001                At home
+5002                Backstreet abortion
+5003                Abortionist's house
+5004                Other house
+9995                Other
+9998                Missing
+9999                NIU (not in universe)
+
+ABORTCOMP           Had complications from most recent abortion
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+ABORTCOMPTR         Sought treatment for complications from most recent abortion
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+ABORTCOMPTRPLACE    Place sought treatment for complications from most recent abortion
+1000                PUBLIC SECTOR
+1100                Government hospital
+1110                District hospital
+1120                Rural hospital
+1200                Government health center
+1210                Urban health center
+1220                Primary health center
+1300                Government dispensary
+1400                Government outreach
+1410                Government mobile clinic
+1420                Government health post
+1430                Government health worker
+1431                Traditional practitioner
+1900                Other public sector
+2000                PRIVATE MEDICAL SECTOR
+2100                Private hospital/clinic
+2200                Private dispensary
+2300                Private health worker
+2310                Private traditional practitioner
+2900                Other private medical sector
+3000                NGO FACILITY
+3100                NGO health facility
+4000                OTHER
+4001                At home
+9995                Other
+9998                Missing
+9999                NIU (not in universe)
+
+ABORTCOMPTRNOCOST   Sought no treatment for abortion complications due to: Cost
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+ABORTCOMPTRNOTRAN   Sought no treatment for abortion complications due to: Lack transport
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+ABORTCOMPTRNOSTIGP  Sought no treatment for abortion complications due to: Stigma from provider
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+ABORTCOMPTRNOSTIGC  Sought no treatment for abortion complications due to: Stigma from community
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+ABORTCOMPTRNOMINOR  Sought no treatment for abortion complications due to: Minor, no need
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+ABORTCOMPTRNORESOLVESought no treatment for abortion complications due to: Resolved itself
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+ABORTCOMPTRNOFAM    Sought no treatment for abortion complications due to: Family duties
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+ABORTCOMPTRNOPERMIT Sought no treatment for abortion complications due to: Lack permission
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+ABORTCOMPTRNOTH     Sought no treatment for abortion complications due to: Other
+0                   No
+1                   Yes
+8                   Missing
+9                   NIU (not in universe)
+
+HYSTOPEV            Ever had hysterectomy
+0                   No
+1                   Yes
+7                   Don't know
+9                   NIU (not in universe)
+
+HYSTOPYRAGO         Years ago had hysterectomy
+00                  Less than 1 year ago
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+97                  Don't know
+99                  NIU (not in universe)
+
+HYSTOPPLACE         Place where hysterectomy was performed
+100                 PUBLIC SECTOR
+110                 Government hospital
+111                 District hospital
+112                 Rural hospital
+120                 Government health center
+121                 Urban health center
+122                 Primary health center
+130                 Government dispensary
+140                 Government outreach
+141                 Government mobile clinic
+142                 Government health post
+190                 Other public sector
+191                 Camp
+200                 PRIVATE MEDICAL SECTOR
+210                 Private hospital
+220                 Private doctor/clinic
+230                 Private mobile clinic
+290                 Other private medical sector
+300                 NGO FACILITY
+310                 NGO health facility
+995                 Other
+997                 Don't know
+999                 NIU (not in universe)
+
+HYSTOPMENST         Reason for hysterectomy: Menstrual bleeding or pain
+0                   No
+1                   Yes
+7                   Don't know
+9                   NIU (not in universe)
+
+HYSTOPCYST          Reason for hysterectomy: Fibroids/cysts
+0                   No
+1                   Yes
+7                   Don't know
+9                   NIU (not in universe)
+
+HYSTOPRUPTURE       Reason for hysterectomy: Uterine rupture
+0                   No
+1                   Yes
+7                   Don't know
+9                   NIU (not in universe)
+
+HYSTOPCANCER        Reason for hysterectomy: Cancer
+0                   No
+1                   Yes
+7                   Don't know
+9                   NIU (not in universe)
+
+HYSTOPROLAPSE       Reason for hysterectomy: Uterine prolapse
+0                   No
+1                   Yes
+7                   Don't know
+9                   NIU (not in universe)
+
+HYSTOPPHEM          Reason for hysterectomy: Severe post-partum hemorrhage
+0                   No
+1                   Yes
+7                   Don't know
+9                   NIU (not in universe)
+
+HYSTOPOTHER         Reason for hysterectomy: Other reason
+0                   No
+1                   Yes
+7                   Don't know
+9                   NIU (not in universe)
+
+CURRWORK            Currently working
+00                  No
+10                  Yes
+11                  Yes, spontaneous
+12                  Yes, prompted
+98                  Missing
+99                  NIU (not in universe)
+
+WEALTHQ             Household wealth index in quintiles
+1                   Poorest
+2                   Poorer
+3                   Middle
+4                   Richer
+5                   Richest
+8                   Missing
+
+EDUCLVL             Highest educational level
+0                   No education
+1                   Primary
+2                   Secondary
+3                   Higher
+8                   Missing
+
+EDYRTOTAL           Total years education
+00                  0
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+96                  Inconsistent
+97                  Don't know
+98                  Missing
+
+KIDSEX              Sex of child
+1                   Male
+2                   Female
+
+KIDALIVE            Child is alive
+0                   No
+1                   Yes
+
+KIDBIRTHMO          Child's month of birth
+01                  January
+02                  February
+03                  March
+04                  April
+05                  May
+06                  June
+07                  July
+08                  August
+09                  September
+10                  October
+11                  November
+12                  December
+
+KIDBIRTHYR          Child's year of birth
+1948                1948
+1949                1949
+1950                1950
+1951                1951
+1952                1952
+1953                1953
+1954                1954
+1955                1955
+1956                1956
+1957                1957
+1958                1958
+1959                1959
+1960                1960
+1961                1961
+1962                1962
+1963                1963
+1964                1964
+1965                1965
+1966                1966
+1967                1967
+1968                1968
+1969                1969
+1970                1970
+1971                1971
+1972                1972
+1973                1973
+1974                1974
+1975                1975
+1976                1976
+1977                1977
+1978                1978
+1979                1979
+1980                1980
+1981                1981
+1982                1982
+1983                1983
+1984                1984
+1985                1985
+1986                1986
+1987                1987
+1988                1988
+1989                1989
+1990                1990
+1991                1991
+1992                1992
+1993                1993
+1994                1994
+1995                1995
+1996                1996
+1997                1997
+1998                1998
+1999                1999
+2000                2000
+2001                2001
+2002                2002
+2003                2003
+2004                2004
+2005                2005
+2006                2006
+2007                2007
+2008                2008
+2009                2009
+2010                2010
+2011                2011
+2012                2012
+2013                2013
+2014                2014
+2015                2015
+2016                2016
+2017                2017
+2018                2018
+2019                2019
+
+KIDCURAGE           Current age of child in years
+00                  Less than 1 year
+01                  1 year
+02                  2 years
+03                  3 years
+04                  4 years
+05                  5 years
+06                  6 years
+07                  7 years
+08                  8 years
+09                  9 years
+10                  10 years
+11                  11 years
+12                  12 years
+13                  13 years
+14                  14 years
+15                  15 years
+16                  16 years
+17                  17 years
+18                  18 years
+19                  19 years
+20                  20 years
+21                  21 years
+22                  22 years
+23                  23 years
+24                  24 years
+25                  25 years
+26                  26 years
+27                  27 years
+28                  28 years
+29                  29 years
+30                  30 years
+31                  31 years
+32                  32 years
+33                  33 years
+34                  34 years
+35                  35 years
+36                  36 years
+37                  37 years
+38                  38 years
+39                  39 years
+40                  40 years
+41                  41 years
+42                  42 years
+97                  Don't know
+99                  NIU (not in universe)
+
+KIDBORD             Child's birth order number
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+
+KIDTWIN             Child is twin or single birth
+10                  Single birth/not a twin
+20                  Twin or multiple
+21                  1st of multiple births
+22                  2nd of multiple births
+23                  3rd of multiple births
+24                  4th of multiple births
+25                  5th of multiple births
+26                  6th of multiple births
+
+KIDAGEDEATH         Child age at death (non-imputed)
+100                 Days: Died on day of birth
+101                 1 day
+102                 2 days
+103                 3 days
+104                 4 days
+105                 5 days
+106                 6 days
+107                 7 days
+108                 8 days
+109                 9 days
+110                 10 days
+111                 11 days
+112                 12 days
+113                 13 days
+114                 14 days
+115                 15 days
+116                 16 days
+117                 17 days
+118                 18 days
+119                 19 days
+120                 20 days
+121                 21 days
+122                 22 days
+123                 23 days
+124                 24 days
+125                 25 days
+126                 26 days
+127                 27 days
+128                 28 days
+129                 29 days
+130                 30 days
+131                 31 days
+132                 32 days
+133                 33 days
+134                 34 days
+135                 35 days
+136                 36 days
+137                 37 days
+138                 38 days
+139                 39 days
+140                 40 days
+141                 41 days
+142                 42 days
+143                 43 days
+144                 44 days
+145                 45 days
+198                 Days, unknown
+199                 Days old, number missing
+200                 Months old: Month of birth
+201                 1 month
+202                 2 months
+203                 3 months
+204                 4 months
+205                 5 months
+206                 6 months
+207                 7 months
+208                 8 months
+209                 9 months
+210                 10 months
+211                 11 months
+212                 12 months
+213                 13 months
+214                 14 months
+215                 15 months
+216                 16 months
+217                 17 months
+218                 18 months
+219                 19 months
+220                 20 months
+221                 21 months
+222                 22 months
+223                 23 months
+224                 24 months
+225                 25 months
+226                 26 months
+227                 27 months
+228                 28 months
+229                 29 months
+230                 30 months
+231                 31 months
+232                 32 months
+233                 33 months
+234                 34 months
+235                 35 months
+236                 36 months
+237                 37 months
+238                 38 months
+239                 39 months
+240                 40 months
+241                 41 months
+242                 42 months
+243                 43 months
+244                 44 months
+245                 45 months
+246                 46 months
+247                 47 months
+248                 48 months
+249                 49 months
+250                 50 months
+251                 51 months
+252                 52 months
+253                 53 months
+254                 54 months
+255                 55 months
+256                 56 months
+257                 57 months
+258                 58 months
+259                 59 months
+260                 60 months
+261                 61 months
+262                 62 months
+263                 63 months
+264                 64 months
+265                 65 months
+266                 66 months
+297                 Months, inconsistent
+298                 Months, unknown
+299                 Months old, number missing
+300                 Years
+301                 1 year
+302                 2 years
+303                 3 years
+304                 4 years
+305                 5 years
+306                 6 years
+307                 7 years
+308                 8 years
+309                 9 years
+310                 10 years
+311                 11 years
+312                 12 years
+313                 13 years
+314                 14 years
+315                 15 years
+316                 16 years
+317                 17 years
+318                 18 years
+319                 19 years
+320                 20 years
+321                 21 years
+322                 22 years
+323                 23 years
+324                 24 years
+325                 25 years
+326                 26 years
+327                 27 years
+328                 28 years
+329                 29 years
+330                 30 years
+331                 31 years
+332                 32 years
+333                 33 years
+334                 34 years
+335                 35 years
+336                 36 years
+337                 37 years
+338                 38 years
+339                 39 years
+340                 40 years
+397                 Years old, number inconsistent
+398                 Years old, number unknown
+399                 Years old, number missing
+997                 Inconsistent
+998                 Missing
+999                 NIU (not in universe)
+
+KIDAGEDIEDIMP       Child's age at death in month (including imputed)
+999                 NIU (not in universe)
+
+KIDAGEDEATHFLAG     Flags for reported age at death of child
+0                   No flag
+1                   Reported age places death after interview
+2                   Reported age less than reported duration breastfeeding
+3                   Reported age less than age given supplemental food
+4                   Reported age less than age first breastfed
+5                   Reported age before last vaccination
+6                   Reported age outside expected range for units
+7                   Reported age was imputed, units given
+8                   Reported age was imputed, units not given
+9                   NIU (not in universe)
+
+KIDLIVESWITH        Child lives with female respondent or with others
+10                  Woman respondent
+20                  Elsewhere
+21                  With father
+22                  With other relative
+23                  With someone else
+24                  Child age 15+, lives elsewhere
+98                  Missing
+99                  NIU (not in universe)
+
+LINENOKID           Line number of child in household
+00                  Not listed in household
+01                  1
+02                  2
+03                  3
+04                  4
+05                  5
+06                  6
+07                  7
+08                  8
+09                  9
+10                  10
+11                  11
+12                  12
+13                  13
+14                  14
+15                  15
+16                  16
+17                  17
+18                  18
+19                  19
+20                  20
+21                  21
+22                  22
+23                  23
+24                  24
+25                  25
+26                  26
+27                  27
+28                  28
+29                  29
+30                  30
+31                  31
+32                  32
+33                  33
+34                  34
+35                  35
+36                  36
+37                  37
+38                  38
+39                  39
+40                  40
+41                  41
+42                  42
+43                  43
+44                  44
+45                  45
+46                  46
+47                  47
+48                  48
+49                  49
+50                  50
+51                  51
+52                  52
+53                  53
+54                  54
+55                  55
+56                  56
+57                  57
+58                  58
+59                  59
+60                  60
+61                  61
+62                  62
+63                  63
+64                  64
+65                  65
+66                  66
+67                  67
+68                  68
+69                  69
+70                  70
+71                  71
+72                  72
+73                  73
+74                  74
+75                  75
+98                  Missing
+99                  NIU (not in universe)
+
+BIRTHINTPOSTMO      Length of following birth interval, in months
+000                 
+999                 NIU (not in universe)
+
+OTHBIRTHININT       Any other live births in interval between birth and previous reported birth
+0                   No
+1                   Yes
+8                   Don't know
+9                   NIU (not in universe)
+
